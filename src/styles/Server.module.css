@@ -51,17 +51,18 @@
 }
 
 .removeBtn {
-    margin-left: auto; 
     width: 70px;
     height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
+
     color: rgb(255, 255, 255);
     background-color: #a85043; 
-    border-radius: 10px;
+
     font-size: 13px;
+
+    margin-left: auto; 
+    
+    border-radius: 10px;
     display: inline-block;
     border: 1px solid rgba(0, 0, 0, 0.21);
     border-bottom-color: rgba(0,0,0,0.34);
@@ -70,6 +71,7 @@
               0 2px 0 -1px rgba(0,0,0,0.13), 
               0 3px 0 -1px rgba(0,0,0,0.08), 
               0 3px 13px -1px rgba(0,0,0,0.21);
+            
 }
 
 .removeBtn:active {
